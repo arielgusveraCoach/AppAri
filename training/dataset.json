@@ -1,0 +1,38 @@
+[
+  {
+    "text": "Pon una alarma para mañana a las 7",
+    "intent": "ALARM",
+    "entities": {
+      "time": "7"
+    }
+  },
+  {
+    "text": "¿Qué tiempo hará hoy?",
+    "intent": "WEATHER",
+    "entities": {
+      "time_period": "hoy"
+    }
+  },
+  {
+    "text": "Reproduce mi lista de música relajante",
+    "intent": "OPEN_APP",
+    "entities": {
+      "app": "spotify",
+      "action": "reproduce"
+    }
+  },
+  {
+    "text": "Busca en la wikipedia qué es la fotosíntesis",
+    "intent": "WEB_SEARCH",
+    "entities": {
+      "query": "qué es la fotosíntesis"
+    }
+  },
+  {
+    "text": "Abre ajustes y cambia el wifi",
+    "intent": "SYSTEM_CONTROL",
+    "entities": {
+      "app": "ajustes"
+    }
+  }
+]
